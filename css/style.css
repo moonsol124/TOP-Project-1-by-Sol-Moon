@@ -1,0 +1,235 @@
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+body div{
+    flex: 1;
+}
+
+.container-max {
+    max-width: 800px;
+}
+
+.description-signup-max{
+    max-width: 1000px;
+}
+
+
+.header {
+    padding: 20px 0px 30px 0px;
+    background-color: #FEEEEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+}
+
+.header .header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header-container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.description {
+    background-color: #FEEEEC;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.description-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.desc-text {
+    text-align: start;
+}
+
+.desc-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.desc-text p {
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.desc-text button {
+    background-color: RGB(255, 255, 255);
+    color: RGB(0, 0, 0);
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 15%;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px RGB(0, 0, 0);
+    border: 3px solid RGB(0, 0, 0);
+}
+
+.desc-text button:hover {
+    background-color: RGB(0, 0, 0);
+    color: RGB(255, 255, 255);
+}
+
+.img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px RGB(110, 110, 110);
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.information .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info-title h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 42px; 
+}
+
+.info-title p {
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+}
+
+.card-container {
+    text-align: center;
+}
+
+.info-img {
+    max-width: 275px;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px RGB(60, 60, 60);
+}
+
+.card-container p {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-style: italic;
+}
+
+.quotes {
+    display: flex;
+    background-color: #e5cece;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.quotes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quotes-text {
+    text-align: center;
+    font-size: 42px;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.quotes-owner {
+    text-align: end;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    margin: 40px 0px;
+    padding: 15px 100px 30px 100px;
+    border-radius: 20%;
+}
+
+.signup-text {
+    text-align: start;
+}
+
+.signup-text h2{
+    font-size: 34px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.signup-text p{
+    font-size: 20px;
+}
+
+.signup-button {
+    font-size: 22px;
+    border-radius: 10%;
+    background-color: RGB(255, 255, 255);
+    color: RGB(0, 0, 0);
+    padding: 10px;
+    margin-left: 30px;
+    font-family:'Courier New', Courier, monospace;
+    border: 3px solid RGB(0, 0, 0);
+    box-shadow: 4px 4px 5px RGB(0, 0, 0);
+}
+
+.signup-button:hover {
+    background-color: RGB(0, 0, 0);
+    color: RGB(255, 255, 255);
+}
+
+.footer {
+    display: flex;
+    background-color: #FEEEEC;
+    justify-content: center;
+    align-items: center;
+}
